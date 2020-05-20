@@ -26,7 +26,7 @@ $ npm init -y
 $ cp ../base/handler.js handler.js
 ````
 
-5. Deploy backend
+5. Deploy backend, do this from the backend directory
 ````
 $ sam deploy --guided
 ````
@@ -39,7 +39,6 @@ Wait for it to deploy.
 
 1. Go to the client directory and install all dependencies
 ````
-$ cd my-first-serverless-app
 $ npm install
 ````
 
